@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Website Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('./assets/images/cta-bg.jpg');
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .about-container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .about-container h1 {
+            font-size: 36px;
+            color: #9027e6;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .about-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .about-container img {
+            width: 25%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .about-container .mission, .about-container .team {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .about-container .mission div, .about-container .team div {
+            flex: 1 1 300px;
+            margin: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+        }
+
+        .about-container .mission h2, .about-container .team h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #9027e6;
+            margin-bottom: 10px;
+        }
+
+        .about-container .mission p, .about-container .team p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .about-container .team img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-container a {
+            text-decoration: none;
+            font-weight: 600;
+            color: #9027e6;
+        }
+
+        .about-container a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .about-container .mission, .about-container .team {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-container .mission div, .about-container .team div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <h1>About Us</h1>
+        <img src="./assets/images/logotravel.jpg" alt="Travel Image">
+
+        <p>
+            We are a dedicated team committed to providing unforgettable travel experiences for travelers from all over the world. With in-depth knowledge of the best destinations and friendly service, we are determined to offer experiences that go beyond just a vacation.
+        </p>
+
+        <div class="mission">
+            <div>
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to make every journey an enjoyable and memorable experience. We strive to provide the best information, exceptional customer service, and unique travel destinations
+                </p>
+            </div>
+            <div>
+                <h2>Our Vision</h2>
+                <p>
+                    To become the most reliable travel platform in the world, offering extraordinary adventures for everyone seeking a unique experience.
+                </p>
+            </div>
+        </div>
+
+        <div class="team">
+            <div>
+                <img src="./assets/images/ceo.jpg" alt="Team Member 1">
+                <h2>Johnny Suh</h2>
+                <p>CEO & Founder</p>
+            </div>
+            <div>
+                <img src="./assets/images/markeeu.jpg" alt="Team Member 2">
+                <h2>Mark Lee</h2>
+                <p>Travel Expert</p>
+            </div>
+            <div>
+                <img src="./assets/images/fotokuk.jpeg" alt="Team Member 3">
+                <h2>Nabila Aulia Sabita</h2>
+                <p>Customer Support</p>
+            </div>
+        </div>
+
+        <p>
+            "If you have any questions or would like to plan your journey with us, feel free to <a href='https://wa.me/6287865067536'>contact us</a> or visit the <a href='contact.html'>Contact</a> page</a>.
+        </p>
+    </div>
+</body>
+</html>
